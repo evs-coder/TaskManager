@@ -27,10 +27,11 @@ O grande diferencial deste projeto é que os dados não somem quando o programa 
 ## 📋 Como Executar o Projeto
 
 ### Pré-requisitos
-Você vai precisar apenas do **Java JDK** instalado na sua máquina.
+- **Java JDK 17** (ou superior) instalado na sua máquina.
+- **Apache Maven** instalado e configurado nas variáveis de ambiente.
 
 ### Passo a passo
-1. Clone este repositório no seu computador:
+1. Clone este repositório no seu computador ou baixe a pasta do projeto:
 ```bash
    git clone https://github.com/evs-coder/TaskManager.git
    ```
@@ -38,13 +39,13 @@ Você vai precisar apenas do **Java JDK** instalado na sua máquina.
 2. Navega até a pasta do projeto:
 
 ```Bash
-   cd TaskManager
+   cd TaskManager-main
 ```
 3. Compile e rode o arquivo principal:
 
 ```Bash
-   javac Main.java
-   java Main
+   mvn compile
+   mvn exec:java -Dexec.mainClass="com.estudos.taskmanager.Main"
 ``` 
 
 ## 🧠 Aprendizados neste projeto
