@@ -33,27 +33,27 @@ Você vai precisar apenas do **Java JDK** instalado na sua máquina.
 1. Clone este repositório no seu computador:
 ```bash
    git clone [https://github.com/](https://github.com/)[SEU_USUARIO]/[NOME_DO_REPOSITORIO].git
+   ```
 
 2. Navega até a pasta do projeto:
 
-Bash
+```Bash
    cd TaskManager
+```
+3. Compile e rode o arquivo principal:
 
-3. Compile e rode o arquivo principal (substitua pelo nome da sua classe que tem o método main):
-
-Bash
+```Bash
    javac Main.java
    java Main
+``` 
 
 ## 🧠 Aprendizados neste projeto
 Este projeto marcou a minha evolução em:
 
-Entendimento do bloco try-with-resources para fechamento automático de arquivos.
+- Entendimento do bloco try-with-resources para fechamento automático de arquivos.
+- Uso correto de buffers (BufferedReader/BufferedWriter) para otimizar operações de leitura e escrita.
+- Manipulação de Strings com os métodos .split() e .trim() para tratamento de dados puros.
+- Aplicação prática da estratégia de "Lê, Filtra e Reescreve" para remoção e atualização de dados em arquivos sequenciais.
 
-Uso correto de buffers (BufferedReader/BufferedWriter) para otimizar operações de leitura e escrita.
-
-Manipulação de Strings com os métodos .split() e .trim() para tratamento de dados puros.
-
-Aplicação prática da estratégia de "Lê, Filtra e Reescreve" para remoção e atualização de dados em arquivos sequenciais.
 
 Desenvolvido com 💻 por Elvis Lima.
