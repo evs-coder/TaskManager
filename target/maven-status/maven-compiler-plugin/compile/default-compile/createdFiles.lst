@@ -1,0 +1,5 @@
+com\estudos\taskmanager\repository\TaskRepository.class
+com\estudos\taskmanager\ui\TaskInterface.class
+com\estudos\taskmanager\Main.class
+com\estudos\taskmanager\model\Task.class
+com\estudos\taskmanager\service\TaskService.class

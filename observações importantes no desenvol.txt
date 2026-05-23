@@ -1,0 +1,13 @@
+observações importantes no desenvolvimento de taskmanager:
+
+- Todas as classes devem iniciar sinalizando a qual pacote ela pertence: package com.estudos.taskmanager.nomedapastadaclasse;
+
+
+Classe Task:
+- Em classes do tipo modelo, devemos usar "throw new IllegalArgumentException()" para impedir criação de objetos indesejados. 
+- Utilizar o método @Override para sobrescrever o método original padrão do java toString é importante para imprimir informações do objeto de forma já formatada.
+
+Classe TaskRepository:
+- Para criar listas que suportem alterações de formato no futuro, devemos importar o arraylist e o list, declarando list do lado esquerdo, garantindo sempre a intenção da variável, como ".add()", ".remove()", ".size()", e definindo do lado direito o motor, como o ArrayList() em: private final List<Task> tarefas = new ArrayList<>(); podendo este ultimo ser alterado seu tipo sem modificar toda a estrutura do software.
+- Ao utilizarmos a declaração final após o private, garante que a variável seja imútavel. Em variáveis do tipo List, continua sendo possível adicionar ou remover objetos, mas não alterar o nome ou tipo.  
+- ao utilizar return new ArrayList<>(tarefas), entregamos apenas uma cópia do banco de dados original, garantindo a segurança do banco de dados.
