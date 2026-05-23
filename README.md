@@ -32,7 +32,7 @@ Você vai precisar apenas do **Java JDK** instalado na sua máquina.
 ### Passo a passo
 1. Clone este repositório no seu computador:
 ```bash
-   git clone [https://github.com/](https://github.com/)[SEU_USUARIO]/[NOME_DO_REPOSITORIO].git
+   git clone [https://github.com/](https://github.com/evs-coder/TaskManager.git
    ```
 
 2. Navega até a pasta do projeto:
